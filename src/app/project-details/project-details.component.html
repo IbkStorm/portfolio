@@ -1,0 +1,20 @@
+<div class="myContainer project-detail">
+    <div class="project-detail__wrapper" *ngFor="let p of (projects | selectedProject: id)">
+        <h1>{{p.name}}</h1>
+        <div class="project-detail__content">
+            <div class="project-detail__text">
+                <p class="card-text">{{p.description}}</p>
+            </div>
+            <div class="project-detail__image">
+                <img src="assets/images/{{p.image}}" alt="{{p.name}}">
+            </div>
+        </div>
+        <div class="project-detail__work">
+            <p class="project-detail__type">{{p.type}}</p>
+            <p class="project-detail__special">{{p.special}}</p>
+            <p class="project-detail__firma">{{p.firma}}</p>
+        </div>
+        <a href="{{p.link}}" target="_blank" class="project-detail__link">{{p.name}}</a>
+    </div>
+    <a class="btn btn-primary" [routerLink]="['/project-list']">Zurück</a>
+</div>
