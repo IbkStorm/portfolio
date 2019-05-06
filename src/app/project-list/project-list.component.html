@@ -1,10 +1,14 @@
 <div class="myContainer project-list">
     <div class="project-list__headerImg">
+        <div class="project-list__headerContent">
+            <h2>Front-end Developer</h2>
+            <p>Entwicklung von Webseiten höchster Qualität und außergewöhnlicher User Experience</p>
+        </div>
         <img src="assets/images/close-up-code-coding-160107.jpg" alt="">
     </div>
     <p>
-        Willkommen. Mein Schwerpunkt ist die Umsetzung von modernen Webseiten. Dabei spezialisiere ich mich auf Frontend-Development, responsives Webdesign und
-        Barrierefreiheit. Hier eine Übersicht besonders gelungener Projekte der letzten Jahre.
+        Willkommen. Es freut mich Sie auf meiner Webseite begrüßen zu dürfen. Seit über 4 Jahren entwickle ich schon als Front-end Developer. Mein Schwerpunkt ist die Umsetzung von modernen Webseiten und Web-Applikationen. Dabei spezialisiere ich mich auf Frontend-Development, responsives Webdesign und
+        Barrierefreiheit. Die User Experience hat dabei immer höchste Priorität. Aber bitte machen Sie sich selber ein BIld. Hier eine Übersicht besonders gelungener Projekte der letzten Jahre.
     </p>
     <div class="project-list__wrapper">
         <a class="project-list__item" *ngFor="let p of projects" [routerLink]="['/project-details', p.id]">
