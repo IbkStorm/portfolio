@@ -26,7 +26,7 @@ export const PROJECTS: Project[] = [
         type: 'Typo3',
         image: 'Wedl.PNG',
         special: 'Umsetzung',
-        link: 'https://www.ikb.at',
+        link: 'https://www.wedl.com/',
         firma: 'holzweg GmbH',
         description: '1904 gründete Leopold Wedl I. in Hall in Tirol ein Kolonialwarengeschäft und legte damit den Grundstein für einen Betrieb, der heute zu den Top 10 Unternehmen des Lebensmittelhandels in Österreich gehört. Bereits in den 20er Jahren begann Leopold Wedl II. mit der Großhandelstätigkeit. Nach dem viel zu frühen Tod des Vaters übernahm Leopold Wedl III. 1965 die Führung des Familienunternehmens und baute es zusammen mit Wilhelm Hofmann zur heutigen Größe aus.' },
     // {
